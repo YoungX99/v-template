@@ -1,7 +1,7 @@
 <template>
   <a
     class="block max-w-screen-sm mx-auto cursor-pointer hover:border-opacity-100"
-    href="https://www.baidu.com"
+    href="https://github.com/YoungX99/v-template"
     target="blank"
     p="4 6"
     border="gray-500 1px rounded-md opacity-50"
