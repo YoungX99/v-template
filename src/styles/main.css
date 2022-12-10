@@ -1,0 +1,14 @@
+:root {
+  --c-bg: #fff;
+  --c-font: #24292f;
+}
+
+html {
+  background-color: var(--c-bg);
+  color: var(--c-font);
+}
+
+html.dark {
+  --c-bg: #0f1216;
+  --c-font: #c9d1d9;
+}

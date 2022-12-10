@@ -1,0 +1,12 @@
+node_modules
+dist
+**/*.js
+**/*.ts
+**/*.vue
+**/*.jsx
+**/*.tsx
+!src/**/*.js
+!src/**/*.ts
+!src/**/*.vue
+!src/**/*.jsx
+!src/**/*.tsx
