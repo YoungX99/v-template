@@ -11,12 +11,13 @@
     "isolatedModules": true,
     "esModuleInterop": true,
     "lib": ["ESNext", "DOM"],
+    "types": [
+      "vite-plugin-pages/client"
+    ],
     "skipLibCheck": true,
     "noEmit": true,
     "paths": {
       "@/*": ["src/*"]
     }
-  },
-
-  "references": [{ "path": "./tsconfig.node.json" }]
+  }
 }

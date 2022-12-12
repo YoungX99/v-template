@@ -11,6 +11,8 @@ declare module '@vue/runtime-core' {
     IMdiAlarm: typeof import('~icons/mdi/alarm')['default']
     IMdiMoonWaningCrescent: typeof import('~icons/mdi/moon-waning-crescent')['default']
     IMdiWeatherSunny: typeof import('~icons/mdi/weather-sunny')['default']
+    RouterLink: typeof import('vue-router')['RouterLink']
+    RouterView: typeof import('vue-router')['RouterView']
     ToogleTheme: typeof import('./src/components/ToogleTheme.vue')['default']
   }
 }
