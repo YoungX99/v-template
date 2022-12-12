@@ -3,9 +3,16 @@
     class="block max-w-screen-sm mx-auto px-4 py-4 hover:border-opacity-100"
     border="gray-500 1px rounded-md opacity-50"
   >
-    <ColorfulText class="text-2xl font-mono"
-      >V-TEMPLATE</ColorfulText
+    <a
+      href="https://github.com/YoungX99/v-template"
+      class="cursor-pointer"
+      target="_blank"
     >
+      <ColorfulText class="text-2xl font-mono"
+        >V-TEMPLATE</ColorfulText
+      ></a
+    >
+
     <ul mt="2">
       <li>
         ⚡️ Use the new
