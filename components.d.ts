@@ -7,7 +7,6 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    Card: typeof import('./src/components/Card.vue')['default']
     ColorfulText: typeof import('./src/components/ColorfulText.vue')['default']
     IMdiAlarm: typeof import('~icons/mdi/alarm')['default']
     IMdiArrowLeft: typeof import('~icons/mdi/arrow-left')['default']
