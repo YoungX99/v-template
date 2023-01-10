@@ -48,7 +48,11 @@ const go = () => {
     <div class="flex justify-between mt-4">
       <div class="flex-1">
         <input
+<<<<<<< HEAD
           class="w-[80%] outline-none rounded-sm h-full px-2 border text-black dark:(bg-transparent text-white)"
+=======
+          class="w-[80%] rounded-sm h-full px-2 border text-black"
+>>>>>>> ab093a66f14ed32acabf5a44e768377e658c1c07
           v-model="name"
           placeholder="What's your name?"
           autocomplete="false"
