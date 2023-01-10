@@ -8,9 +8,9 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     ColorfulText: typeof import('./src/components/ColorfulText.vue')['default']
-    IMdiAlarm: typeof import('~icons/mdi/alarm')['default']
     IMdiArrowLeft: typeof import('~icons/mdi/arrow-left')['default']
     IMdiArrowRight: typeof import('~icons/mdi/arrow-right')['default']
+    IMdiGithub: typeof import('~icons/mdi/github')['default']
     IMdiMoonWaningCrescent: typeof import('~icons/mdi/moon-waning-crescent')['default']
     IMdiWeatherSunny: typeof import('~icons/mdi/weather-sunny')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
