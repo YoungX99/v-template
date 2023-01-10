@@ -3,9 +3,13 @@ defineProps<{ name: string }>()
 </script>
 <template>
   <div class="flex flex-col items-center gap-4">
-    <div class="text-5xl">
-      About:
-      <ColorfulText>{{ name }}</ColorfulText>
+    <div
+      class="text-4xl flex flex-col font-mono gap-4"
+    >
+      About Page
+      <ColorfulText
+        >Hello, {{ name }}</ColorfulText
+      >
     </div>
     <button
       @click="$router.push('/')"
