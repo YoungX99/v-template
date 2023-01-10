@@ -6,12 +6,10 @@
 
 <style scoped>
 .colorful {
-  background: linear-gradient(
-    271deg,
-    #a0e9ff 30%,
-    #a162e8 50%,
-    #f093b0 70%,
-    #edca85 94%
+  background-image: linear-gradient(
+    to left,
+    #905de2 0%,
+    #e5b2ca 100%
   );
   background-clip: text;
   -webkit-background-clip: text;
