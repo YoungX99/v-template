@@ -4,12 +4,12 @@ import 'virtual:windi.css'
 import './styles/main.css'
 import {
   createRouter,
-  createWebHashHistory
+  createWebHistory
 } from 'vue-router'
 
 import routes from 'pages-generated'
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes
 })
 
