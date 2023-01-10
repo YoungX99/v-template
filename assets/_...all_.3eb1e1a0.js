@@ -1,1 +1,0 @@
-import{_ as n,c as r,a as c,w as s,b as _,o as a,d as l}from"./index.51780a19.js";const u={};function d(t,e){const o=_;return a(),r("div",{class:"font-mono text-5xl text-center cursor-pointer",onClick:e[0]||(e[0]=f=>t.$router.back())},[c(o,null,{default:s(()=>[l("404 Not Found")]),_:1})])}const p=n(u,[["render",d]]);export{p as default};
